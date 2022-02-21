@@ -1,0 +1,14 @@
+/home/joris/code/private/csharp/BulkyBook/BulkyBook.Models/bin/Debug/net6.0/BulkyBook.Models.deps.json
+/home/joris/code/private/csharp/BulkyBook/BulkyBook.Models/bin/Debug/net6.0/BulkyBook.Models.dll
+/home/joris/code/private/csharp/BulkyBook/BulkyBook.Models/bin/Debug/net6.0/BulkyBook.Models.pdb
+/home/joris/code/private/csharp/BulkyBook/BulkyBook.Models/obj/Debug/net6.0/BulkyBook.Models.csproj.AssemblyReference.cache
+/home/joris/code/private/csharp/BulkyBook/BulkyBook.Models/obj/Debug/net6.0/BulkyBook.Models.GeneratedMSBuildEditorConfig.editorconfig
+/home/joris/code/private/csharp/BulkyBook/BulkyBook.Models/obj/Debug/net6.0/BulkyBook.Models.AssemblyInfoInputs.cache
+/home/joris/code/private/csharp/BulkyBook/BulkyBook.Models/obj/Debug/net6.0/BulkyBook.Models.AssemblyInfo.cs
+/home/joris/code/private/csharp/BulkyBook/BulkyBook.Models/obj/Debug/net6.0/BulkyBook.Models.csproj.CoreCompileInputs.cache
+/home/joris/code/private/csharp/BulkyBook/BulkyBook.Models/obj/Debug/net6.0/BulkyBook.Models.dll
+/home/joris/code/private/csharp/BulkyBook/BulkyBook.Models/obj/Debug/net6.0/refint/BulkyBook.Models.dll
+/home/joris/code/private/csharp/BulkyBook/BulkyBook.Models/obj/Debug/net6.0/BulkyBook.Models.pdb
+/home/joris/code/private/csharp/BulkyBook/BulkyBook.Models/obj/Debug/net6.0/ref/BulkyBook.Models.dll
+/home/joris/code/private/csharp/BulkyBook/BulkyBook.Models/bin/Debug/net6.0/BulkyBook.Models.runtimeconfig.json
+/home/joris/code/private/csharp/BulkyBook/BulkyBook.Models/obj/Debug/net6.0/BulkyBook.Models.genruntimeconfig.cache

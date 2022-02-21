@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "EF3AfH59tX/pBg/tFHTSJtRHA2JN95T0a26F4cZWAIY=",
+  "Hash": "iZmVZnSJxhlTIwTqX31rT1gOGaQgCEhGe4WcT4Ki410=",
   "Source": "BulkyBookWeb",
   "BasePath": "_content/BulkyBookWeb",
   "Mode": "Default",
@@ -51,6 +51,23 @@
       "OriginalItemSpec": "/home/joris/code/private/csharp/BulkyBook/BulkyBookWeb/obj/Debug/net6.0/scopedcss/projectbundle/BulkyBookWeb.bundle.scp.css"
     },
     {
+      "Identity": "/home/joris/code/private/csharp/BulkyBook/BulkyBookWeb/wwwroot/css/bootswatchTheme.css",
+      "SourceId": "BulkyBookWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/joris/code/private/csharp/BulkyBook/BulkyBookWeb/wwwroot/",
+      "BasePath": "_content/BulkyBookWeb",
+      "RelativePath": "css/bootswatchTheme.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/bootswatchTheme.css"
+    },
+    {
       "Identity": "/home/joris/code/private/csharp/BulkyBook/BulkyBookWeb/wwwroot/css/site.css",
       "SourceId": "BulkyBookWeb",
       "SourceType": "Discovered",
@@ -83,6 +100,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/favicon.ico"
+    },
+    {
+      "Identity": "/home/joris/code/private/csharp/BulkyBook/BulkyBookWeb/wwwroot/images/products/796d7e58-4d00-4b8c-9b11-c22eedeacef5.jpg",
+      "SourceId": "BulkyBookWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/joris/code/private/csharp/BulkyBook/BulkyBookWeb/wwwroot/",
+      "BasePath": "_content/BulkyBookWeb",
+      "RelativePath": "images/products/796d7e58-4d00-4b8c-9b11-c22eedeacef5.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/products/796d7e58-4d00-4b8c-9b11-c22eedeacef5.jpg"
+    },
+    {
+      "Identity": "/home/joris/code/private/csharp/BulkyBook/BulkyBookWeb/wwwroot/js/product.js",
+      "SourceId": "BulkyBookWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/joris/code/private/csharp/BulkyBook/BulkyBookWeb/wwwroot/",
+      "BasePath": "_content/BulkyBookWeb",
+      "RelativePath": "js/product.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/product.js"
     },
     {
       "Identity": "/home/joris/code/private/csharp/BulkyBook/BulkyBookWeb/wwwroot/js/site.js",

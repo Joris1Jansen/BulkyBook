@@ -581,3 +581,12 @@
 /home/joris/code/private/csharp/BulkyBook/BulkyBookWeb/bin/Debug/net6.0/BulkyBook.Models.pdb
 /home/joris/code/private/csharp/BulkyBook/BulkyBookWeb/bin/Debug/net6.0/Microsoft.AspNetCore.JsonPatch.dll
 /home/joris/code/private/csharp/BulkyBook/BulkyBookWeb/bin/Debug/net6.0/Newtonsoft.Json.Bson.dll
+/home/joris/code/private/csharp/BulkyBook/BulkyBookWeb/bin/Debug/net6.0/Microsoft.AspNetCore.Cryptography.Internal.dll
+/home/joris/code/private/csharp/BulkyBook/BulkyBookWeb/bin/Debug/net6.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+/home/joris/code/private/csharp/BulkyBook/BulkyBookWeb/bin/Debug/net6.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+/home/joris/code/private/csharp/BulkyBook/BulkyBookWeb/bin/Debug/net6.0/Microsoft.AspNetCore.Identity.UI.dll
+/home/joris/code/private/csharp/BulkyBook/BulkyBookWeb/bin/Debug/net6.0/Microsoft.Extensions.FileProviders.Embedded.dll
+/home/joris/code/private/csharp/BulkyBook/BulkyBookWeb/bin/Debug/net6.0/Microsoft.Extensions.Identity.Core.dll
+/home/joris/code/private/csharp/BulkyBook/BulkyBookWeb/bin/Debug/net6.0/Microsoft.Extensions.Identity.Stores.dll
+/home/joris/code/private/csharp/BulkyBook/BulkyBookWeb/bin/Debug/net6.0/BulkyBook.Util.dll
+/home/joris/code/private/csharp/BulkyBook/BulkyBookWeb/bin/Debug/net6.0/BulkyBook.Util.pdb

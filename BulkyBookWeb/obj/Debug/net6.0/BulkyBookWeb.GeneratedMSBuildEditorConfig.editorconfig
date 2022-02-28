@@ -79,6 +79,18 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQ292ZXJUeXBlL0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[/home/joris/code/private/csharp/BulkyBook/BulkyBookWeb/Areas/Admin/Views/Order/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvT3JkZXIvRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/joris/code/private/csharp/BulkyBook/BulkyBookWeb/Areas/Admin/Views/Order/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvT3JkZXIvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/joris/code/private/csharp/BulkyBook/BulkyBookWeb/Areas/Admin/Views/Order/PaymentConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvT3JkZXIvUGF5bWVudENvbmZpcm1hdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/home/joris/code/private/csharp/BulkyBook/BulkyBookWeb/Areas/Admin/Views/Product/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvUHJvZHVjdC9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -93,6 +105,18 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/home/joris/code/private/csharp/BulkyBook/BulkyBookWeb/Areas/Admin/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/joris/code/private/csharp/BulkyBook/BulkyBookWeb/Areas/Customer/Views/Cart/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ3VzdG9tZXIvVmlld3MvQ2FydC9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/joris/code/private/csharp/BulkyBook/BulkyBookWeb/Areas/Customer/Views/Cart/OrderConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ3VzdG9tZXIvVmlld3MvQ2FydC9PcmRlckNvbmZpcm1hdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/joris/code/private/csharp/BulkyBook/BulkyBookWeb/Areas/Customer/Views/Cart/Summary.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ3VzdG9tZXIvVmlld3MvQ2FydC9TdW1tYXJ5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/home/joris/code/private/csharp/BulkyBook/BulkyBookWeb/Areas/Customer/Views/Home/Details.cshtml]
@@ -261,6 +285,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/home/joris/code/private/csharp/BulkyBook/BulkyBookWeb/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/joris/code/private/csharp/BulkyBook/BulkyBookWeb/Views/Shared/Components/ShoppingCart/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvU2hvcHBpbmdDYXJ0L0RlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/home/joris/code/private/csharp/BulkyBook/BulkyBookWeb/Views/Shared/Error.cshtml]

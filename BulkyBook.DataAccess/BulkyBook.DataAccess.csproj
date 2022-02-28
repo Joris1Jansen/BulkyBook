@@ -24,6 +24,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\BulkyBook.Models\BulkyBook.Models.csproj" />
+      <ProjectReference Include="..\BulkyBook.Util\BulkyBook.Util.csproj" />
     </ItemGroup>
 
 </Project>

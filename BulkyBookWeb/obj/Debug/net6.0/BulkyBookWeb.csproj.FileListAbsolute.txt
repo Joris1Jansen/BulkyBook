@@ -554,7 +554,6 @@
 /home/joris/code/private/csharp/BulkyBook/BulkyBookWeb/bin/Debug/net6.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
 /home/joris/code/private/csharp/BulkyBook/BulkyBookWeb/bin/Debug/net6.0/runtimes/win-arm/lib/net6.0/dotnet-aspnet-codegenerator-design.exe
 /home/joris/code/private/csharp/BulkyBook/BulkyBookWeb/bin/Debug/net6.0/runtimes/win-arm64/lib/net6.0/dotnet-aspnet-codegenerator-design.exe
-/home/joris/code/private/csharp/BulkyBook/BulkyBookWeb/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll
 /home/joris/code/private/csharp/BulkyBook/BulkyBookWeb/bin/Debug/net6.0/runtimes/alpine-x64/native/libe_sqlite3.so
 /home/joris/code/private/csharp/BulkyBook/BulkyBookWeb/bin/Debug/net6.0/runtimes/linux-arm/native/libe_sqlite3.so
 /home/joris/code/private/csharp/BulkyBook/BulkyBookWeb/bin/Debug/net6.0/runtimes/linux-arm64/native/libe_sqlite3.so
@@ -570,11 +569,7 @@
 /home/joris/code/private/csharp/BulkyBook/BulkyBookWeb/bin/Debug/net6.0/runtimes/win-arm64/native/e_sqlite3.dll
 /home/joris/code/private/csharp/BulkyBook/BulkyBookWeb/bin/Debug/net6.0/runtimes/win-x64/native/e_sqlite3.dll
 /home/joris/code/private/csharp/BulkyBook/BulkyBookWeb/bin/Debug/net6.0/runtimes/win-x86/native/e_sqlite3.dll
-/home/joris/code/private/csharp/BulkyBook/BulkyBookWeb/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll
-/home/joris/code/private/csharp/BulkyBook/BulkyBookWeb/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll
 /home/joris/code/private/csharp/BulkyBook/BulkyBookWeb/bin/Debug/net6.0/runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll
-/home/joris/code/private/csharp/BulkyBook/BulkyBookWeb/bin/Debug/net6.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
-/home/joris/code/private/csharp/BulkyBook/BulkyBookWeb/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll
 /home/joris/code/private/csharp/BulkyBook/BulkyBookWeb/bin/Debug/net6.0/BulkyBook.DataAccess.dll
 /home/joris/code/private/csharp/BulkyBook/BulkyBookWeb/bin/Debug/net6.0/BulkyBook.Models.dll
 /home/joris/code/private/csharp/BulkyBook/BulkyBookWeb/bin/Debug/net6.0/BulkyBook.DataAccess.pdb
@@ -590,3 +585,13 @@
 /home/joris/code/private/csharp/BulkyBook/BulkyBookWeb/bin/Debug/net6.0/Microsoft.Extensions.Identity.Stores.dll
 /home/joris/code/private/csharp/BulkyBook/BulkyBookWeb/bin/Debug/net6.0/BulkyBook.Util.dll
 /home/joris/code/private/csharp/BulkyBook/BulkyBookWeb/bin/Debug/net6.0/BulkyBook.Util.pdb
+/home/joris/code/private/csharp/BulkyBook/BulkyBookWeb/bin/Debug/net6.0/Stripe.net.dll
+/home/joris/code/private/csharp/BulkyBook/BulkyBookWeb/bin/Debug/net6.0/runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll
+/home/joris/code/private/csharp/BulkyBook/BulkyBookWeb/bin/Debug/net6.0/runtimes/unix/lib/net6.0/System.Drawing.Common.dll
+/home/joris/code/private/csharp/BulkyBook/BulkyBookWeb/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Drawing.Common.dll
+/home/joris/code/private/csharp/BulkyBook/BulkyBookWeb/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll
+/home/joris/code/private/csharp/BulkyBook/BulkyBookWeb/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll
+/home/joris/code/private/csharp/BulkyBook/BulkyBookWeb/bin/Debug/net6.0/MailKit.dll
+/home/joris/code/private/csharp/BulkyBook/BulkyBookWeb/bin/Debug/net6.0/MimeKit.dll
+/home/joris/code/private/csharp/BulkyBook/BulkyBookWeb/bin/Debug/net6.0/BouncyCastle.Crypto.dll
+/home/joris/code/private/csharp/BulkyBook/BulkyBookWeb/bin/Debug/net6.0/Microsoft.AspNetCore.Authentication.Facebook.dll

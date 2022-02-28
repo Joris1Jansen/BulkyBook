@@ -2,13 +2,9 @@
 // The .NET Foundation licenses this file to you under the MIT license.
 #nullable disable
 
-using System;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using Microsoft.Extensions.Logging;
 
 namespace BulkyBookWeb.Areas.Identity.Pages.Account.Manage
 {
@@ -50,7 +46,7 @@ namespace BulkyBookWeb.Areas.Identity.Pages.Account.Manage
             var isTwoFactorEnabled = await _userManager.GetTwoFactorEnabledAsync(user);
             if (!isTwoFactorEnabled)
             {
-                throw new InvalidOperationException($"Cannot generate recovery codes for user because they do not have 2FA enabled.");
+                throw new InvalidOperationException("Cannot generate recovery codes for user because they do not have 2FA enabled.");
             }
 
             return Page();
@@ -68,7 +64,7 @@ namespace BulkyBookWeb.Areas.Identity.Pages.Account.Manage
             var userId = await _userManager.GetUserIdAsync(user);
             if (!isTwoFactorEnabled)
             {
-                throw new InvalidOperationException($"Cannot generate recovery codes for user as they do not have 2FA enabled.");
+                throw new InvalidOperationException("Cannot generate recovery codes for user as they do not have 2FA enabled.");
             }
 
             var recoveryCodes = await _userManager.GenerateNewTwoFactorRecoveryCodesAsync(user, 10);

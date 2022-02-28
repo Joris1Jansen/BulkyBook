@@ -2,11 +2,6 @@
 // The .NET Foundation licenses this file to you under the MIT license.
 #nullable disable
 
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -121,7 +116,7 @@ namespace BulkyBookWeb.Areas.Identity.Pages.Account.Manage
             var info = await _signInManager.GetExternalLoginInfoAsync(userId);
             if (info == null)
             {
-                throw new InvalidOperationException($"Unexpected error occurred loading external login info.");
+                throw new InvalidOperationException("Unexpected error occurred loading external login info.");
             }
 
             var result = await _userManager.AddLoginAsync(user, info);

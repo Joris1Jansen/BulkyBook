@@ -1,7 +1,9 @@
 ﻿using System.Diagnostics;
+using System.Security.Claims;
 using BulkyBook.DataAccess.Repository.IRepository;
 using BulkyBook.Models;
-using BulkyBook.Models.ViewModel;
+using BulkyBook.Util;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BulkyBookWeb.Controllers;
@@ -23,16 +25,45 @@ public class HomeController : Controller
         return View(productList);
     }
     
-    public IActionResult Details(int id)
+    public IActionResult Details(int ProductId)
     {
         ShoppingCart cartObj = new()
         {
             Count = 1,
-            Product = _unitOfWork.Product.GetFirstOrDefault(u=>u.Id==id, includeProperties: "Category,CoverType")
+            ProductId = ProductId,
+            Product = _unitOfWork.Product.GetFirstOrDefault(u=>u.Id==ProductId, includeProperties: "Category,CoverType")
         };
         
         return View(cartObj);
     }
+    
+    [HttpPost]
+    [ValidateAntiForgeryToken]
+    [Authorize]
+    public IActionResult Details(ShoppingCart shoppingCart)
+    {
+        var claimsIdentity = (ClaimsIdentity)User.Identity;
+        var claim = claimsIdentity.FindFirst(ClaimTypes.NameIdentifier);
+        shoppingCart.ApplicationUserId = claim.Value;
+
+        ShoppingCart cartFromDb = _unitOfWork.ShoppingCart.GetFirstOrDefault(
+            u => u.ApplicationUserId == claim.Value && u.ProductId == shoppingCart.ProductId);
+
+        if (cartFromDb == null)
+        {
+            _unitOfWork.ShoppingCart.Add(shoppingCart);
+        }
+        else
+        {
+            _unitOfWork.ShoppingCart.IncrementCount(cartFromDb, shoppingCart.Count);
+        }
+        
+        _unitOfWork.Save();
+        HttpContext.Session.SetInt32(SD.SessionShoppingCart, _unitOfWork.ShoppingCart.GetAll(u=>u.ApplicationUserId == claim.Value).ToList().Count);
+
+        return RedirectToAction(nameof(Index));
+    }
+
 
     public IActionResult Privacy()
     {
@@ -42,6 +73,6 @@ public class HomeController : Controller
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
     {
-        return View(new ErrorViewModel {RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier});
+        return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
     }
 }

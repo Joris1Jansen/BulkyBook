@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "RKpayiSRiLqRugkyc3y2PelxkOYBS/ANSHkLDzNpGUQ=",
+  "Hash": "MLBZa8ZNmjxDvUvwxpdGiMW3g8bC3+ZYb06Y8OYjdOM=",
   "Source": "BulkyBookWeb",
   "BasePath": "_content/BulkyBookWeb",
   "Mode": "Default",
@@ -1122,6 +1122,23 @@
       "OriginalItemSpec": "wwwroot/favicon.ico"
     },
     {
+      "Identity": "/home/joris/code/private/csharp/BulkyBook/BulkyBookWeb/wwwroot/images/lawn_leaf.jpg",
+      "SourceId": "BulkyBookWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/joris/code/private/csharp/BulkyBook/BulkyBookWeb/wwwroot/",
+      "BasePath": "_content/BulkyBookWeb",
+      "RelativePath": "images/lawn_leaf.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/lawn_leaf.jpg"
+    },
+    {
       "Identity": "/home/joris/code/private/csharp/BulkyBook/BulkyBookWeb/wwwroot/images/products/04166251-8b5f-431c-a1fc-935985665608.jpg",
       "SourceId": "BulkyBookWeb",
       "SourceType": "Discovered",
@@ -1205,6 +1222,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/js/company.js"
+    },
+    {
+      "Identity": "/home/joris/code/private/csharp/BulkyBook/BulkyBookWeb/wwwroot/js/order.js",
+      "SourceId": "BulkyBookWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/joris/code/private/csharp/BulkyBook/BulkyBookWeb/wwwroot/",
+      "BasePath": "_content/BulkyBookWeb",
+      "RelativePath": "js/order.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/order.js"
     },
     {
       "Identity": "/home/joris/code/private/csharp/BulkyBook/BulkyBookWeb/wwwroot/js/product.js",

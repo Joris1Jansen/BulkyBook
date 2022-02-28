@@ -15,3 +15,5 @@
 /home/joris/code/private/csharp/BulkyBook/BulkyBook.DataAccess/obj/Debug/net6.0/ref/BulkyBook.DataAccess.dll
 /home/joris/code/private/csharp/BulkyBook/BulkyBook.DataAccess/bin/Debug/net6.0/BulkyBook.DataAccess.runtimeconfig.json
 /home/joris/code/private/csharp/BulkyBook/BulkyBook.DataAccess/obj/Debug/net6.0/BulkyBook.DataAccess.genruntimeconfig.cache
+/home/joris/code/private/csharp/BulkyBook/BulkyBook.DataAccess/bin/Debug/net6.0/BulkyBook.Util.dll
+/home/joris/code/private/csharp/BulkyBook/BulkyBook.DataAccess/bin/Debug/net6.0/BulkyBook.Util.pdb

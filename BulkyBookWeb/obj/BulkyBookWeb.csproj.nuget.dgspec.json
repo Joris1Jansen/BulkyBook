@@ -28,6 +28,9 @@
             "projectReferences": {
               "/home/joris/code/private/csharp/BulkyBook/BulkyBook.Models/BulkyBook.Models.csproj": {
                 "projectPath": "/home/joris/code/private/csharp/BulkyBook/BulkyBook.Models/BulkyBook.Models.csproj"
+              },
+              "/home/joris/code/private/csharp/BulkyBook/BulkyBook.Util/BulkyBook.Util.csproj": {
+                "projectPath": "/home/joris/code/private/csharp/BulkyBook/BulkyBook.Util/BulkyBook.Util.csproj"
               }
             }
           }
@@ -86,6 +89,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
@@ -204,6 +210,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "MailKit": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
             "Microsoft.AspNetCore.Identity.UI": {
               "target": "Package",
               "version": "[6.0.2, )"
@@ -223,6 +233,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.2, )"
+            },
+            "MimeKit": {
+              "target": "Package",
+              "version": "[3.1.1, )"
             }
           },
           "imports": [
@@ -236,6 +250,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
@@ -285,6 +302,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.Facebook": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
             "Microsoft.AspNetCore.Identity.UI": {
               "target": "Package",
               "version": "[6.0.2, )"
@@ -318,6 +339,10 @@
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
               "version": "[6.0.3, )"
+            },
+            "Stripe.net": {
+              "target": "Package",
+              "version": "[39.93.0, )"
             }
           },
           "imports": [

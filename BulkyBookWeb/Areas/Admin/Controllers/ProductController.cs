@@ -35,14 +35,15 @@ public class ProductController : Controller
             {
                 Text = i.Name,
                 Value = i.Id.ToString()
-            }),
+            })
+
             CoverTypeList = _unitOfWork.CoverType.GetAll().Select(i => new SelectListItem
             {
                 Text = i.Name,
                 Value = i.Id.ToString()
             }),
         };
-
+        
         if (id==null || id == 0)
         {
             //create product
@@ -55,8 +56,6 @@ public class ProductController : Controller
         return View(productViewModel);
 
         //update product
-
-
     }
 
     //POST

@@ -14245,6 +14245,23 @@
         }
       },
       {
+        "HashCode": 1168744251,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__ShoppingCartViewComponentTagHelper",
+        "AssemblyName": "BulkyBookWeb",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:shopping-cart"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__ShoppingCartViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "ShoppingCart"
+        }
+      },
+      {
         "HashCode": 1342982883,
         "Kind": "Components.Bind",
         "Name": "Bind",
@@ -16338,6 +16355,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/home/joris/code/private/csharp/BulkyBook/BulkyBookWeb/Areas/Admin/Views/Order/PaymentConfirmation.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\Order\\PaymentConfirmation.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/joris/code/private/csharp/BulkyBook/BulkyBookWeb/Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml",
       "TargetPath": "Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml",
       "FileKind": "mvc"
@@ -16490,6 +16512,11 @@
     {
       "FilePath": "/home/joris/code/private/csharp/BulkyBook/BulkyBookWeb/Areas/Customer/Views/Home/Details.cshtml",
       "TargetPath": "Areas\\Customer\\Views\\Home\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/joris/code/private/csharp/BulkyBook/BulkyBookWeb/Views/Shared/Components/ShoppingCart/Default.cshtml",
+      "TargetPath": "Views\\Shared\\Components\\ShoppingCart\\Default.cshtml",
       "FileKind": "mvc"
     },
     {

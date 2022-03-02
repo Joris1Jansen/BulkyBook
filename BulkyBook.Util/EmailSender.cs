@@ -20,7 +20,7 @@ public class EmailSender : IEmailSender
         using (var emailClient = new SmtpClient())
         {
             emailClient.Connect("smtp.gmail.com", 587, MailKit.Security.SecureSocketOptions.StartTls);
-            emailClient.Authenticate("joris97jansen@gmail.com", "Jj@270397");
+            emailClient.Authenticate("joris97jansen@gmail.com", "PASSWORD");
             emailClient.Send(emailToSend);
             emailClient.Disconnect(true);
         }

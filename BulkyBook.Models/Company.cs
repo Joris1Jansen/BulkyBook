@@ -18,4 +18,9 @@ public class Company
     public string? PostalCode { get; set; }
     
     public string? PhoneNumber { get; set; }
+
+    public string CityPlusLetter(string letter)
+    {
+        return (this.City + letter);
+    }
 }
